@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #EDF2C5
+
+}
+
+.web{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Noto Sans", sans-serif;
+    color: #778A50;
+    margin: 0%;
+}
+
+#login-join {
+    display: flex;
+    gap: 10px; /* 控制 LOGIN 和 JOIN 按鈕之間的間隔 */
+}
+
+#social-icons {
+    display: flex;
+    gap: 10px; /* 控制 Facebook 和 Instagram 圖標之間的間隔 */
+}
+
+header{
+
+    display: flex;
+    justify-content: flex-end;
+    height: 62px;
+    margin-top: 36px;
+    width: 1120px;
+    
+}
+
+#ig{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.link{
+    display: flex;
+    width: 208px;
+    height: 24px;
+    margin-top: 19px;
+    font-family: "Noto Sans", sans-serif;
+    color:#778A50;
+    margin: 0%;
+    flex-direction: row;
+    border-radius: 3px
+    
+    
+
+}
+.link{
+    display: flex;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.link img{
+    width: 24px;
+    height: 24px;  
+}
+
+#line{
+    border-left: 1px solid #778A50;
+    width: 0px;
+    height: 24px;
+}
+
+#loginbutton  {
+    display: flex;
+    width: 62px;
+    height: 27px;
+    border-radius: 3px; /*線寬*/
+    border: 1px solid #778A50;
+    padding: 4px 8px 4px 8px; /*字跟框的間隔*/
+    margin-left: 11px;  /*物體跟物體的間隔*/
+    margin-right: 14px;
+    align-items: center;   /*字體置中*/
+    font-family: "Noto Sans", sans-serif ;
+}
+
+#joinbutton  {
+    display: flex;
+    width: 49px;
+    height: 27px;
+    border-radius:3px;
+    border: 1px solid #778A50;
+    padding: 4px 8px 4px 8px;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif ;
+}
+
+header div p{
+
+    margin: 0%;
+    color: #778A50;
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif ;
+    font-weight: 700;
+}
+
+.page {
+    display: flex;
+    background-color: #778A50;
+    height: 44px;
+    border-radius: 3px; /**/
+    line-height: 24px;
+    flex-direction: row;
+    width: 1120px;
+    align-self: center;
+    margin-top: 106px;
+    justify-content: flex-start;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.page p{
+    font-family: "Noto Sans", sans-serif;
+    color: #EDF2C5;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px 10px 30px;
+    justify-content: flex-start;
+
+}
+
+h6{
+    color:#EDF2C5;
+    background-color: #778A50;
+    border-radius: 3px; /**/
+    height: 45px;
+    width: 528px;
+    padding: 10px 30px; /**/
+    margin-top: 0%; /**/
+    margin-bottom: 16px; /**/
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 24px;
+    line-height: 150%;/**/
+}
+.word{
+    height: 140px;
+    padding: 16px;
+    background-color: #F7FBDA;
+    width: 528px;
+    height: 140px;
+    padding: 20px;
+}
+
+.word p{   /**//*好需要解釋！！！！！*/
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    color: #7D7D7D;
+    line-height: 150%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between; 
+   
+
+}
+.allword{
+
+    justify-content: space-between;
+}
+
+footer{
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #778A50;
+}
+
+footer p{
+    font-family: "Noto Sans", sans-serif;
+    color: #EDF2C5;
+    font-size: 12px;
+}
+.pumpkin img{
+   
+    width: 1120px;
+    height: 448px;
+    margin-top: 60px;
+}
+
+.Vagetables img{
+    width: 165px;
+    height: 140px;
+}
+/*
+.Vegetables{   
+    display: flex;
+    height: 140px;
+    width: 528px;
+    justify-content: space-between;
+}
+*/
+#vegetables-section{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}/**/
+
+article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 117px;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+
+#line2{
+    border-top: 1px solid #7D7D7D;
+    height: 0px;
+    width: 496px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
